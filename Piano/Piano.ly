@@ -66,7 +66,7 @@ left = \relative c {
 %  \leftZeroToOne
 %  \leftOneToFifty
   % 98-101
-  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 |
 
 }
 
