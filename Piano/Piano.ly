@@ -66,8 +66,37 @@ left = \relative c {
 %  \leftZeroToOne
 %  \leftOneToFifty
   % 98-101
-  r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 |
-
+  r1 | r1 | r1 | r1 |
+  
+  % 102
+  <ees g bes ees>1~ | 
+  % 103
+  <ees g bes ees>4 <ees g bes ees> <aes c ees aes> <ees g bes ees> |
+  % 104
+  <bes d f bes>2 <b f' aes> |
+  % 105
+  <c ees g c>2 <aes c f aes\(>4 <a c f a\)>4 |
+  % 106
+  <bes g' bes>4.. <f' aes>16\( <aes c>8.\) <g bes>16\( <bes d>8.\) <aes c>16\( |
+  % 107
+  \clef treble
+  <c ees>8.\) <bes d>16\( <d f>8.\) <c ees>16\( <ees g>8.\) <d f>16\( <f aes>8.\) <ees g>16\( |
+  % 108
+  \tuplet 3/2 { <g bes>8-.\) <f aes>-. <aes c>-. }
+  \tuplet 3/2 { <g bes>8-. <bes d>8-. <aes c>8-. }
+  \tuplet 3/2 { <c ees>8-. <bes d>8-. <d f>8-. }
+  \tuplet 3/2 { <c ees>8-. <ees g>8-. <ees g>8-. } |
+  % 109
+  \tuplet 3/2 { <ees g>8-. <d f>-. <c ees>-. }
+  \tuplet 3/2 { bes'8-. aes8-. g8-. }
+  \tuplet 3/2 { f8-. ees8-. d8-. } 
+  \tuplet 3/2 { c8-. bes8-. aes8-. } |
+  % 110
+  \tuplet 3/2 { g8 f ees } 
+  \clef bass
+  \tuplet 3/2 { d c bes }
+  \tuplet 3/2 { aes g f }
+  \tuplet 3/2 { ees d c }
 }
 
 \score {
