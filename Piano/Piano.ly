@@ -59,23 +59,44 @@ right = \relative c' {
   \tuplet 3/2 { <g c>8 <f bes> <ees a> }
 
   % 111
-  ces4 ces2 ces,4~ |
-  % 112
-  ces4 bes2 aes4 |
+  bes'16 bes aes g aes f 
+  \change Staff = "right" 
+  d' cis d aes f' e f d aes' g |
+  
+  % 112 
+  aes16 f d' cis d aes f' e f d aes' g aes f g aes |
   % 113
-  g bes''~ bes4. g,8 |
+  bes16 c bes aes
+  \ottava 1
+  \tuplet 7/4 { g16 aes bes c d ees f }
+  g16 aes bes aes
+  \tuplet 6/4 { g f ees d c b } |
+  
   % 114
-  aes8 r8 \clef treble c''2~ c8 a,8 |
+  c16 d c bes! 
+  \tuplet 7/4 { aes16 bes c d ees f g }
+  \tuplet 5/4 { aes16 bes c bes aes }
+  \tuplet 5/4 { g16 f ees d c } |
+  
   % 115
-  bes8 <ees g> bes <ees g> bes <ees g> bes <ees g> |
+  \ottava 0
+  bes16 a aes g f ees d c 
+  \tuplet 3/2 { bes16 c bes }
+  \tuplet 3/2 { a bes b }
+  \tuplet 3/2 { c cis d }
+  \tuplet 3/2 { ees f g } |
+
   % 116
-  bes8 <ees g> bes <ees g> 
-  <bes f' aes!>-. <bes e g>-. <bes f' aes>-.
-  \clef bass <bes, d f bes>8-. |
-  % 117
-  <ees, g bes ees>4 r4 r2 |
+  \tuplet 3/2 { aes a bes }
+  \tuplet 3/2 { b c cis }
+  \tuplet 3/2 { d ees e }
+  \tuplet 3/2 { f g aes }
+  <aes, aes'!>8-. <g g'>-. <aes aes'>-. <d, aes' b d>-. |
+  
+  % 117 
+  <ees g bes ees>4 r4 r2 |
   % 118-120
-  r1 | r1 | r1 | 
+  r1 | r1 | r1 |
 }
   
 left = \relative c {
@@ -114,6 +135,25 @@ left = \relative c {
   \tuplet 3/2 { d c bes }
   \tuplet 3/2 { aes g f }
   \tuplet 3/2 { ees d c }
+  
+  % 111
+  ces4 ces2 ces,4~ |
+  % 112
+  ces4 bes2 aes4 |
+  % 113
+  g bes''~ bes4. g,8 |
+  % 114
+  aes8 r8 \clef treble c''2~ c8 a,8 |
+  % 115
+  bes8 <ees g> bes <ees g> bes <ees g> bes <ees g> |
+  % 116
+  bes8 <ees g> bes <ees g> 
+  <bes f' aes!>-. <bes e g>-. <bes f' aes>-.
+  \clef bass <bes, d f bes>8-. |
+  % 117
+  <ees, g bes ees>4 r4 r2 |
+  % 118-120
+  r1 | r1 | r1 | 
 }
 
 \score {
