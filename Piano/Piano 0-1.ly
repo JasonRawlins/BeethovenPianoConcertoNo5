@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-rightZeroToOne = \relative c' {
+right_Zero_One = \relative c' {
   % 0.1
   r1
   % 0.2
@@ -63,7 +63,7 @@ rightZeroToOne = \relative c' {
   <bes, d aes'!>1
 }
 
-leftZeroToOne = \relative c {
+left_Zero_One = \relative c {
   % 0.1
   r1
   % 0.2
