@@ -13,42 +13,104 @@ right = \relative c' {
 %  \right_Zero_One
 %  \right_NinetyEight_OneHundredTwenty
   % 121
+  r8 ees''4 bes ges ees8~ |
   % 122
+  ees8 ees'4 ces aes ees8~ |
   % 123
+  ees8 ees'4 bes ges ees8~ |
   % 124
+  ees8 ees'4 ces aes ees8 |
   % 125
+  fes8 fes'4 ces aes fes8 |
   % 126
+  f8 f'4 ces aes f8 |
   % 127
+  ges16 <bes des> ges <bes des> ges'4~ ges16 <bes,, des> ges <bes des> ges'4~ |
   % 128
+  ges16 
+  \change Staff = "left" <bes,, des> ges <bes des> 
+  \change Staff = "right" ges'4~ ges16
+  \change Staff = "left" <bes,, des> ges <bes des> ges'4~ |
   % 129
+  \voiceOne
+  ges16 <ces, ees> ges <ces ees> ges'4~ ges16 <ces ees> ges <ces ees>
+  \change Staff = "right" ges'4~ |
   % 130
+  ges16 <des' fes> ges, <des' fes> ges4~ ges16 <ces ees> ges <ces ees> ges'4~ |
   % 131
+  ges8 <bes, des>16 \(ges'\) <bes, des> \(ges'\) r8 r8 <bes,, des>16 \(ges'\) <bes, des>16 \(ges'\) r8 |
   % 132
+  r8 <bes,, des>16 \(bes'\) <bes, des>16 \(bes'\) r8
+  \clef bass r8 <bes,, des>16 \(ges'\) <bes, des>16 \(ges'\) r8 |
   % 133
+  r8 ges,16 \(ges'\) ges,16 \(ges'\) r8 \clef treble r8 ges16 \(ges'\) ges, \(ges'\) r8 |
   % 134
+  r8 ges16 \(ges'\) ges,16 \(ges'\) r8 r8 ges16 \(ges'\) ges,16 \(ges'\) r8 |
   % 135
-  % 136
+  <fis, fis'>8 
+  \change Staff = "left" g,,16 fis g fis g fis b ais b ais 
+  \change Staff = "right" d16 cis d cis |
+  % 136 
+  g'16 fis g fis b ais b ais d cis d cis g' fis g fis |
   % 137
+  b ais b ais d cis d cis g' fis g fis d cis d cis |
   % 138
+  g' fis g fis d cis d cis g' fis g fis d cis d cis |
   % 139
+  fis e fis e d cis d cis fis e fis e d cis d cis |
   % 140
+  fis16 e d cis fis16 e d cis fis16 e d cis fis16 e d cis |
   % 141
+  fis16 e d cis fis16 e d cis fis16 e d cis fis16 e d cis |
   % 142
+  \tuplet 3/2 { <b d>8 fis <b d> } \tuplet 3/2 { fis8 <ais cis> fis } \tuplet 3/2 { b fis b } \tuplet 3/2 { fis <ais cis> fis } |
   % 143
+  \tuplet 3/2 { <b d>8 fis <b d> } \tuplet 3/2 { fis8 <ais cis> fis } \tuplet 3/2 { <b d>8 fis <b d> } \tuplet 3/2 { fis8 <b d> <ais cis> }
   % 144
+  \tuplet 3/2 { <b d>8 fis <b d> }
+  \tuplet 3/2 { fis <ais cis> fis }
+  \tuplet 3/2 { <b d> fis <b d> }
+  \tuplet 3/2 { a <cis e> a } |
   % 145
+  \tuplet 3/2 { <cis e>8 a <cis e> }
+  \tuplet 3/2 { a <cis e> a }
+  \tuplet 3/2 { <cis e> a <cis e> }
+  \tuplet 3/2 { a <d fis> <cis e> } |
   % 146
+  \tuplet 3/2 { <d fis>8 fis, <d' fis> }
+  \tuplet 3/2 { fis, <cis' e> fis, }
+  \tuplet 3/2 { <d' fis> fis, <d' fis> }
+  \tuplet 3/2 { fis, <cis' e> <b d> } |
   % 147
+  \tuplet 3/2 { <cis e>8 fis, <cis' e> }
+  \tuplet 3/2 { fis, <b d> fis }
+  \tuplet 3/2 { <cis' e> fis, <cis' e> }
+  \tuplet 3/2 { fis, <b d> <ais cis> } |
   % 148
+  \tuplet 3/2 { <b d>8 fis <b d> }
+  \tuplet 3/2 { fis <ais cis> fis }
+  \tuplet 3/2 { <b d> fis <b d> }
+  \tuplet 3/2 { fis <ais cis> fis } |
   % 149
+  <bes des>8 ges-.\( f-. ges-. aes-. bes-. ces-. des-.\) |
   % 150
+  ees8-. \(ces-. ges-. ces-.\) ees,-. \(ces'-. ges-. ces-.\) |
   % 151
+  ees-. \(ces-. ges-. ces-.\) ges-. \(ees'-. ces-. ees-.\) |
   % 152
+  \ottava 1
+  ges \(ees\) ces'-. \(bes-.\) aes-. \(ges-. fes-. ees-.\) |
   % 153
+  ges \(fes ees fes\) fes-. \(des-. ees-. fes-.\) |
   % 154
+  ges \(ces\) ees-. \(des-.\) ces-. \(bes-. aes-. ges-.\) |
   % 155
+  fes \(bes\) des-. \(ces-.\) bes-. \(aes-. ges-. fes-.\) |
   % 156
+  ees \(ces' ges ces ees-.\) ces-. ges-. ees-. |
+  \ottava 0
   % 157
+  des-. ges,-. des-. ges,-. \change Staff = "left" des-.-. ges,-. \change Staff = "right" r4 |
 }
   
 left = \relative c {
