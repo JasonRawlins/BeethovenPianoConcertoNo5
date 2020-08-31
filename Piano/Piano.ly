@@ -154,12 +154,20 @@ left = \relative c {
   % 187
   f16 e fis eis g fis g fis g fis g fis g d bes g |
   % 188
+  ees8 \clef treble ees'16 d f ees g fis a g b a c b des c |
   % 189
+  d16 cis ees d ees d ees d ees d ees d ees c g ees |
   % 190
+  \clef bass
+  f,8 f'16 d f d bes d bes d f, bes f bes d, f |
   % 191
+  d f bes, d bes d f, bes f bes d, f d f bes, d |
   % 192
+  f,8 f'''16 des f des bes des bes des f, bes f bes des, f |
   % 193
+  des16 f bes, des bes des f, bes f bes des, f des f bes, des |
   % 194
+  h
   % 195
   % 196
   % 197
