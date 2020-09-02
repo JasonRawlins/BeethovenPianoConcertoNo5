@@ -167,30 +167,59 @@ left = \relative c {
   % 193
   des16 f bes, des bes des f, bes f bes des, f des f bes, des |
   % 194
-  h
+  fes16 <bes des> fes' <bes, des> fes'16 <bes, des> fes' <bes, des> bes,! <bes' des> fes' <bes, des> fes' <bes, des> fes' <bes, des> |
   % 195
+  bes,16 <bes' des> fes' <bes, des> fes'16 <bes, des> fes' <bes, des> fes! <bes des> fes' <bes, des> fes' <bes, des> fes' <bes, des> |
   % 196
+  ees,16 ges ces ees ees, ges ces ees des, ges bes des des, ges bes des |
   % 197
+  ces,16 ees ges ces ces, ees ges ces fes, aes ces! fes fes, aes ces fes |
   % 198
+  e,4 r4 r2 |
   % 199
+  r4 \tuplet 3/2 { bes'8 g! e } \tuplet 5/4 { ees16 \(ges a c ees\) } r4 |
   % 200
+  d,16 f bes d r4 c,16 f a c r4 |
   % 201
+  bes,16 d f bes r4 ees,16 g bes ees r4 |
   % 202
+  f,,8-. f-. g-. a-. bes-. f-. c'-. f,-. |
   % 203
+  d'8 f, ees' f, f' f, g g' |
   % 204
+  a,8 a' bes, bes' c, c' d, d' |
   % 205
+  ees,8 ees' f, f' g, g' a, a' |
   % 206
+  bes,16 bes' c, c' d, d' ees, ees' f, f' g, g' \clef treble a, a' bes, bes' |
   % 207
+  c,16 c' d, d' ees, ees' e, e' f, f' f, f' d, d' bes, bes' |
   % 208
+  ees,16 ees' r8 r4 r2 |
   % 209
+  c,16 c' r8 r4 r2 |
   % 210
+  a,16 a' r8 r4 \clef bass f,16 f' r8 r4 |
   % 211
+  ees,16 ees' r8 r4 c,,8 r8 a r8 |
   % 212
+  f16 ges' a c ees a, c ees ges c, ees ges a ees ges a |
   % 213
+  c16 ges a c ees a, c ees \clef treble ges c, ees ges a ees ges a |
   % 214
+  \clef bass f,,16 c' ees ges a ees ges a c ges a c ees a, c ees |
   % 215
+  \clef treble ges16 c, ees ges a ees ges a c ges a c ees a, c ees |
   % 216
-  % 217  
+  \tuplet 3/2 { ges8 f e }
+  \tuplet 3/2 { ees d cis }
+  \tuplet 3/2 { c b bes }
+  \clef bass a,16 aes g ges |
+  % 217
+  \tuplet 3/2 { f8 e ees }
+  \tuplet 3/2 { d cis c }
+  \tuplet 3/2 { b bes a }
+  aes16 g ges f |
   % 218
 }
 
