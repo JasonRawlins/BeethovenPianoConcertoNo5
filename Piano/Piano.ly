@@ -211,16 +211,11 @@ left = \relative c {
   % 215
   \clef treble ges16 c, ees ges a ees ges a c ges a c ees a, c ees |
   % 216
-  \tuplet 3/2 { ges8 f e }
-  \tuplet 3/2 { ees d cis }
-  \tuplet 3/2 { c b bes }
-  \clef bass a,16 aes g ges |
+  \tuplet 3/2 { ges8 f e } \tuplet 3/2 { ees d cis } \tuplet 3/2 { c b bes } \clef bass a,16 aes g ges |
   % 217
-  \tuplet 3/2 { f8 e ees }
-  \tuplet 3/2 { d cis c }
-  \tuplet 3/2 { b bes a }
-  aes16 g ges f |
+  \tuplet 3/2 { f8 e ees } \tuplet 3/2 { d cis c } \tuplet 3/2 { b bes a } aes16 g ges f |
   % 218
+  <bes, bes'>4 r4 r2 |
 }
 
 \score {
