@@ -15,10 +15,15 @@ right = \relative c' {
 %  \right_NinetyEight_OneHundredTwenty
 %  \right_OneHundredTwentyOne_OneHundredFiftySeven
   % 165
+  r2 \change Staff = "left" r8 a16 f c' a \change Staff = "right" f' c |
   % 166
+  a'16 f c' a f' c a' f c' a f' c f c a' f |
   % 167
+  c'4 r4 \change Staff = "left" r8 a,,,16 f c' a \change Staff = "right" f' c \change Staff = "right" |
   % 168
+  a'16 f c' a f' c a' f c' a f' c a' f c' a |
   % 169
+  d4 r4 \change Staff = "left" r8 bes,,,16 f \change Staff = "right" d' bes f' d |
   % 170
   % 171
   % 172
