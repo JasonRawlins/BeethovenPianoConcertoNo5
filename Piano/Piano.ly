@@ -25,16 +25,27 @@ right = \relative c' {
   % 169
   d4 r4 \change Staff = "left" r8 bes,,,16 f \change Staff = "right" d' bes f' d |
   % 170
+  bes'16 f d' bes f' d bes' f \ottava 1 d' bes f' d bes' f d' bes | 
   % 171
+  <ees, ees'>4 \ottava 0 <ees, ees'>2 <d d'>8-. <c c'>-. |
   % 172
+  <bes bes'>8 \(<a a'>\) <g g'>-. <f f'>-. f'-. e-. ees-. d-. |
   % 173
+  c8-. bes-. a-. g-. f-. e-. ees-. d-. |
   % 174
+  \change Staff = "left" \stemUp c16 bes a g f g f e \tuplet 5/4 { d16 e f g a } \change Staff = "right" \tuplet 5/4 { d16 e f g a } \stemNeutral |
   % 175
+  \stemUp bes8-. \tuplet 3/2 { c16\( bes a\) } bes8-. <a c>-. <bes d>2 \stemNeutral |
   % 176
+  <bes d>8-. \tuplet 3/2 { <c ees>16 \(<bes d> <a c>\) } <bes d>8-. <c ees>-. <d f>2 |
   % 177
+  bes'8 \( \tuplet 3/2 { c16 bes a } \) bes8-. c-. <bes d>8 \( \tuplet 3/2 { <c ees>16 <bes d> <a c> } \) <bes d>8-. <c ees>-. |
   % 178
+  <ees g>8 \(<d f>\) <c ees>-. <bes d>-. <bes d> \(<aes c>\) <g bes>-. <f aes>-. |
   % 179
+  <ees g>8-. \tuplet 3/2 { f16 \(ees d\) }  <g, ees'>8-. <bes f'>-. <ees g>2 |
   % 180
+  <ees g>8-. \tuplet 3/2 { <f aes>16 \(<ees g> <d f>\) } <ees g>8-. <f a>-. <g bes>2 |
   % 181
   % 182
   % 183
@@ -107,7 +118,9 @@ left = \relative c {
   % 173
   c,16 c' bes, bes' a, a' g, g' f, f' e, e' ees, ees' d, d' |
   % 174
+  \stemDown
   c,16 c' bes, bes' a, a' g, g' f, f' ees ees' d, d' c, c' |
+  \stemNeutral
   % 175
   \tuplet 3/2 { <bes, bes'>8-.  bes''-. a-. }
   \tuplet 3/2 { aes8-. g-. ges-. }
