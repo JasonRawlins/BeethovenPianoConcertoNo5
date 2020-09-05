@@ -47,14 +47,23 @@ right = \relative c' {
   % 180
   <ees g>8-. \tuplet 3/2 { <f aes>16 \(<ees g> <d f>\) } <ees g>8-. <f a>-. <g bes>2 |
   % 181
+  ees8 \( \tuplet 3/2 { f16 ees d } ees8-. \) f-. <ees g>8 \( \tuplet 3/2 { <f aes>16 <ees g> <d f> } <ees g>8-. \) <f aes>8-. |
   % 182
+  <g bes>8 \( \tuplet 3/2 { <aes c>16 <g bes> <f aes> } <g bes>8-. \) <f d'> <g ees'>-. <g ees'>-. <g ees'>-. <g ees'>-. |
   % 183
+  <ees ees'>8-. \tuplet 3/2 { d'16 \( c b \) }  <ees, c'>8-. <b' d>-. <c ees>2 |
   % 184
+  r8 \tuplet 3/2 { d16 \( c b } c8-. \) <b d>-. <c ees>-. \tuplet 3/2 { d,16 \( c b } c8-. \) d-. |
   % 185
+  ees8-. \tuplet 3/2 { d'16 \( c b } <c, c'>8-. \) <d d'>-. <ees ees'>-. <f f'>-. <g g'>-. <a a'>-. |
   % 186
+  <bes bes'>8 <bes bes'>4 <a a'> <aes aes'> <g g'>8~ |
   % 187
+  <g g'>8 <fis fis'>4 <f f'>8~ <f f'> <e e'> <ees ees'> <d d'> |
   % 188
+  <g g'>8 <g g'>4 <fis fis'> <f f'> <e e'>8~ |
   % 189
+  <e e'>8 ees'4 d8 f \( ees \) d-. c-. |
   % 190
   % 191
   % 192
