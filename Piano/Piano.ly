@@ -65,17 +65,29 @@ right = \relative c' {
   % 189
   <e e'>8 ees'4 d8 f \( ees \) d-. c-. |
   % 190
+  r8 f16 d f d bes d bes d f, bes f bes d, f |
   % 191
+  d16 f bes, d bes d f, bes f bes d, f d f bes, d |
   % 192
+  r8 f''16 des f des bes des bes des f, bes f bes des, f |
   % 193
+  des16 f bes, des bes des f, bes f bes des, f des f bes, des |
   % 194
+  \change Staff = "left" \stemUp ges,16 des' bes des \change Staff = "right" ges des bes des bes ges' des ges bes ges des ges \stemNeutral |
   % 195
+  des16 bes' ges bes des bes ges bes ges des' bes ges' bes, ges' des bes' |
   % 196
+  ces,16 ces' bes, bes' aes, aes' ges, ges' fes fes' ees, ees' des, des' ces, ces' |
   % 197
+  \ottava 1 aes16 aes' ges, ges' fes, fes' ees, ees' des des' ces, ces' bes, bes' aes, aes' \ottava 0
   % 198
+  \tuplet 3/2 { g,!8 g'! e } \tuplet 3/2 { des bes g } \tuplet 3/2 { e des bes } \tuplet 3/2 { g e des }
   % 199
+  \change Staff = "left" \stemUp bes16 g e des r4 r4 \tuplet 5/4 { ges16 \( a \change Staff = "right" c! ees! ges \) } \stemNeutral |
   % 200
+  \stemUp r4 \change Staff = "left" f,16 bes \change Staff = "right" d f r4 \change Staff = "left" f,16 a \change Staff = "right" ees' f \stemNeutral |
   % 201
+  
   % 202
   % 203
   % 204
@@ -194,7 +206,9 @@ left = \relative c {
   % 193
   des16 f bes, des bes des f, bes f bes des, f des f bes, des |
   % 194
+  \stemDown
   fes16 <bes des> fes' <bes, des> fes'16 <bes, des> fes' <bes, des> bes,! <bes' des> fes' <bes, des> fes' <bes, des> fes' <bes, des> |
+  \stemNeutral
   % 195
   bes,16 <bes' des> fes' <bes, des> fes'16 <bes, des> fes' <bes, des> fes! <bes des> fes' <bes, des> fes' <bes, des> fes' <bes, des> |
   % 196
@@ -204,11 +218,11 @@ left = \relative c {
   % 198
   e,4 r4 r2 |
   % 199
-  r4 \tuplet 3/2 { bes'8 g! e } \tuplet 5/4 { ees16 \(ges a c ees\) } r4 |
+  \stemDown r4 \tuplet 3/2 { bes'8 g! e } \tuplet 5/4 { ees16 \(ges a c ees\) } r4 \stemNeutral |
   % 200
-  d,16 f bes d r4 c,16 f a c r4 |
+  \stemDown d,16 f bes d r4 c,16 f a c r4 |
   % 201
-  bes,16 d f bes r4 ees,16 g bes ees r4 |
+  bes,16 d f bes r4 ees,16 g bes ees r4 \stemNeutral |
   % 202
   f,,8-. f-. g-. a-. bes-. f-. c'-. f,-. |
   % 203
