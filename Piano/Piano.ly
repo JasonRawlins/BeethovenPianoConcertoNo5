@@ -16,6 +16,47 @@ right = \relative c' {
 %  \right_NinetyEight_OneHundredTwenty
 %  \right_OneHundredTwentyOne_OneHundredFiftySeven
 %  \right_OneHundredSixtyFive_TwoHundredEighteen
+  % 255
+  % 256
+  % 257
+  % 258
+  % 259
+  % 260
+  % 261
+  % 262
+  % 263
+  % 264
+  % 265
+  % 266
+  % 267
+  % 268
+  % 269
+  % 270
+  % 271
+  % 272
+  % 273
+  % 274
+  % 275
+  % 276
+  % 277
+  % 278
+  % 279
+  % 280
+  % 281
+  % 282
+  % 283
+  % 284
+  % 285
+  % 286
+  % 287
+  % 288
+  % 289
+  % 290
+  % 291
+  % 292
+  % 293
+  % 294
+  % 295
 }
   
 left = \relative c {
@@ -24,6 +65,64 @@ left = \relative c {
 %  \left_NinetyEight_OneHundredTwenty
 %  \left_OneHundredTwentyOne_OneHundredFiftySeven
 %  \left_OneHundredSixtyFive_TwoHundredEighteen
+  % 255
+  fis16 g gis a bes b c cis d ees e f \clef treble fis g gis a |
+  % 256
+  bes b c cis d ees e f fis g aes! a bes! b c gis, |
+  % 257
+  g'1~ \startTrillSpan |
+  % 258
+  \afterGrace g1 \stopTrillSpan fis16 \( |
+  % 259
+  g8 d b d g, b d, g \)
+  % 260
+  b,8 \( d g, b \tuplet 3/2 { d g b } d g \) |
+  % 261
+  b1~ \startTrillSpan |
+  % 262
+  \afterGrace b1 \stopTrillSpan a16 \( |
+  % 263
+  b8 g d g b, d g, b |
+  % 264
+  d,8 g b, d \tuplet 3/2 { g b d } g b \) |
+  % 265
+  c2 \trill c,~ \startTrillSpan |
+  % 266
+  \afterGrace c1 \stopTrillSpan b16 |
+  % 267
+  c,16 ees g ees g ees g ees c ees g ees g ees g ees |
+  % 268
+  c ees g ees g ees g ees c ees g ees g ees g ees |
+  % 269
+  \clef bass d,16 d' d, d' g, <b d> f' <b, d> g <b d> f' <b, d> f' <b, d> f' <b, d> |
+  % 270
+  g16 <b d> f' <b, d> f' <b, d> f' <b, d> g <b d> f' <b, d> f' <b, d> f' <b, d> |
+  % 271
+  \stemDown \tuplet 3/2 { c,,8 ees g } \stemNeutral \tuplet 3/2 { c ees g } \tuplet 3/2 { c, ees g } \clef treble c16 ees g c \clef bass |
+  % 272
+  % 273
+  % 274
+  % 275
+  % 276
+  % 277
+  % 278
+  % 279
+  % 280
+  % 281
+  % 282
+  % 283
+  % 284
+  % 285
+  % 286
+  % 287
+  % 288
+  % 289
+  % 290
+  % 291
+  % 292
+  % 293
+  % 294
+  % 295
 }
 
 \score {

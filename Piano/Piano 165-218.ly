@@ -113,7 +113,6 @@ right_OneHundredSixtyFive_TwoHundredEighteen = \relative c' {
 }
 
 left_OneHundredSixtyFive_TwoHundredEighteen = \relative c {
- 
   % 165
   r1 |
   % 166
