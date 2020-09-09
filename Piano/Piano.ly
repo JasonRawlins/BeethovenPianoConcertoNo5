@@ -100,17 +100,29 @@ left = \relative c {
   % 271
   \stemDown \tuplet 3/2 { c,,8 ees g } \stemNeutral \tuplet 3/2 { c ees g } \tuplet 3/2 { c, ees g } \clef treble c16 ees g c \clef bass |
   % 272
+  ees,,16 ees' ees, ees' c, c' c, c' a a' a, a' g, g' g, g' |
   % 273
+  fis, fis' fis, fis' ees, ees' ees, ees' d, d' d, d' cis, cis' cis, cis' |
   % 274
+  c,!16 c'! c, c' a, a' a, a' fis, fis' fis, fis' d, d' d, d' |
   % 275
+  g16 bes d bes d bes d bes g bes d bes d bes d bes |
   % 276
+  g16 bes d bes d bes d bes g bes d bes d bes d bes |
   % 277
+  a,16 a' a, a' d, <fis a> c' <fis, a> d <fis a> c' <fis, a> c' <fis, a> c' <fis, a> |
   % 278
+  d16 <fis a> c' <fis, a> c' <fis, a> c' <fis, a> d <fis a> c' <fis, a> c' <fis, a> c' <fis, a> |
   % 279
+  \stemDown \tuplet 3/2 { g,,8 bes d } \tuplet 3/2 { g8 bes d } \tuplet 3/2 { g,8 bes d } g16 bes d g \stemNeutral |
   % 280
+  bes,,16 bes' bes, bes' g, g' g, g' e e' e, e' des, des' des, des' |
   % 281
+  c,16 c' c, c' b, b' b, b' bes, bes' bes, bes' g, g' g, g' |
   % 282
+  e, e' e, e' c, c' c, c' bes, bes' bes, bes' c, c' c, c' |
   % 283
+  \stemDown f,16 c' aes c f c aes c aes f' c f aes f c f \stemNeutral |
   % 284
   % 285
   % 286
