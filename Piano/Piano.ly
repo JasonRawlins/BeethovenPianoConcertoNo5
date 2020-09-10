@@ -124,9 +124,13 @@ left = \relative c {
   % 283
   \stemDown f,16 c' aes c f c aes c aes f' c f aes f c f \stemNeutral |
   % 284
+  c16 aes' f aes c aes f aes f c' aes c f c aes c |
   % 285
+  f,,16 c' aes c f c aes c aes f' c f aes f c f |
   % 286
+  c16 aes' f aes c aes f aes f c' aes c f c aes c |
   % 287
+  b,16 f' d f b f d f d b' f b d b f b |
   % 288
   % 289
   % 290
