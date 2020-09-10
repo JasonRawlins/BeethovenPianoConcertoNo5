@@ -132,13 +132,21 @@ left = \relative c {
   % 287
   b,16 f' d f b f d f d b' f b d b f b |
   % 288
+  f16 d' b d f d b d \clef treble b f' d f b f d f \clef bass |
   % 289
+  b,,16 f' d f b f d f d b' f b d b f b |
   % 290
+  f16 d' b d f d b d \clef treble b f' d f b f d f \clef bass |
   % 291
+  c,16 aes' ees aes c  aes ees aes ees c' aes c ees c aes c |
   % 292
+  ees,16 c' ges c ees c ees c ees, ees' c ees ges ees c ees \clef treble |
   % 293
+  g,16 ees' bes! ees g ees b ees b g' ees g bes g ees g |
   % 294
+  ees16 bes' ges bes ees bes ges bes ees bes' ges bes ees bes ges bes |
   % 295
+  ees4 r4 r2 |
 }
 
 \score {
