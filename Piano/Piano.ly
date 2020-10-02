@@ -35,9 +35,9 @@ right = \relative c' {
   \stemUp <ges ges'>4. <f f'>8-. <ees ees'>8-. <des des'>-. <c c'>-. <bes bes'>-. |
   % 303
   \voiceOne
-  a'8-. ges-. f-. ees-. des-. c \change Staff = "left" bes-. a-. |
+  a'8-. ges-. f-. ees-. des-. c \change Staff = "left" bes-. a!-. |
   % 304
-  s1
+  <bes, bes'>8 <c c'> <d! d'!> <ees ees'> \change Staff = "right" f' g! aes! a |
   % 305
   s1
   % 306 
@@ -179,34 +179,39 @@ left = \relative c {
   <ges ges'>4. <f f'>8-. <ees ees'>8-. <des des'>-. <c c'>-. <bes bes'>-. |
   % 303
   <<
+    { \autoBeamOff \crossStaff { a''8-. ges f ees des c bes a! } \autoBeamOn }
+    \\
+    { <a, a'>8 \stemDown ges'8-. f-. ees-. des-. c-. bes-. a!-. } |
+  >>
+  % 304
+  <<
     {
       \autoBeamOff
-      \crossStaff { a''8-. ges f ees des c bes a! }
+      \crossStaff { s2 f''8 g! aes! a }
       \autoBeamOn
     }
     \\
     {
-      <a, a'>8 \stemDown ges'8-. f-. ees-. des-. c-. bes-. a!-. | 
+      \stemDown bes,,8 c d! ees f g! aes! a |  
     }
   >>
-  % 304
-  bes8 c d! ees f g! aes! a | \stemNeutral
+  
   % 305
-  bes8 c cis d ees e f g |
+  \stemDown bes,8 c d ees f g aes a |
   % 306
   aes!4. g8 f ees d c |
   % 307
-  \stemDown b8 aes! g f ees d c b |
+  b8 aes! g f ees d c b |
   % 308
-  c8 d e f g a b c | \stemNeutral
+  c8 d e f g a b c |
   % 309
   d8 e f fis g a bes b |
   % 310
   b4. a8 g f e d |
   % 311
-  \stemDown cis8 bes a g f e d cis |
+  cis8 bes a g f e d cis |
   % 312
-  d8 e f g a b c cis | \stemNeutral
+  d8 e f g a b c cis |
   % 313
   d8 e f g a b c! cis |
   % 314
