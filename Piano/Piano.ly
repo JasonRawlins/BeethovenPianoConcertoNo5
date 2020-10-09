@@ -39,53 +39,53 @@ right = \relative c' {
   % 304
   <bes, bes'>8 <c c'> <d! d'!> <ees ees'> \change Staff = "right" f' g! aes! a |
   % 305
-  s1
+  <bes, bes'>8 <c c'> <cis cis'> <d d'> <ees ees'> <e e'> <f f'> <g g'> |
   % 306 
-  s1
+  <aes! aes'!>4. <g g'>8 <f f'> <ees! ees'!> <d d'> <c! c'!> |
   % 307
-  s1
+  b'8 aes! g f ees d c b |
   % 308
-  s1
+  c8 d e f g a b c |
   % 309
-  s1
+  <d, d'>8 <e e'> <f f'> <fis fis'> <g g'> <a a'> <bes! bes'!> <bes bes'> |
   % 310
-  s1
+  <bes bes'>4. <a a'>8 <g g'> <f f'> <e e'> <d d'> |
   % 311
-  s1
+  cis'8 b a g f e d cis |
   % 312
-  s1
+  d8 e f g a b c cis |
   % 313
-  s1
+  d8 e f g a b c cis |
   % 314
-  s1
+  d8 c! bes! a g fis ees d |
   % 315
-  s1
+  c8 bes! a g fis ees d cis |
   % 316
-  s1
+  c8 bes c d e fis g a |
   % 317
-  s1
+  <bes, bes'>8 <c c'> <d d'> <ees! ees'!> <fis fis'> <g g'> <aes! aes'!> <a a'> |
   % 318
-  s1
+  <bes bes'>8 <a a'> <g g'> <fis fis'> <ees ees'> <d d'> <c c'> <bes bes'> |
   % 319
-  s1
+  a'8 g fis ees s2 |
   % 320
-  s1
+  s2 d8 ees f! fis |
   % 321
-  s1
+  g8 a b c d ees f! fis |
   % 322
-  s1
+  <g, g'>8 <a a'> <b b'> <c c'> <d d'> <ees ees'> <f! f'!> <fis fis'> |
   % 323
-  s1
+  \ottava 1 <g g'>8 <a! a'!> <b b'> <c c'> <d d'> <ees ees'> <f f'> fis \ottava 0 |
   % 324
-  s1
+  << { g2. b,4 } \\ { g1 } >> |
   % 325
-  s1
+  << { c4 a e' d } \\ { fis,1 } >> |
   % 326
-  s1
+  << { d'2. b4 } \\ { g1 } >> |
   % 327
-  s1
+  << { c8 a gis a c a e' d } \\ { fis,1 } >> |
   % 328
-  s1
+  << { d'4 } \\ { g,!4 } >> r4 r2 |
   % 329
   s1
   % 330
@@ -181,23 +181,16 @@ left = \relative c {
   <<
     { \autoBeamOff \crossStaff { a''8-. ges f ees des c bes a! } \autoBeamOn }
     \\
-    { <a, a'>8 \stemDown ges'8-. f-. ees-. des-. c-. bes-. a!-. } |
+    { <a, a'>8 ges'8-. f-. ees-. des-. c-. bes-. a!-. } |
   >>
   % 304
   <<
-    {
-      \autoBeamOff
-      \crossStaff { s2 f''8 g! aes! a }
-      \autoBeamOn
-    }
+    { \autoBeamOff \crossStaff { s2 f''8 g! aes! a } \autoBeamOn }
     \\
-    {
-      \stemDown bes,,8 c d! ees f g! aes! a |  
-    }
+    { bes,,8 c d! ees f g! aes! a } |
   >>
-  
   % 305
-  \stemDown bes,8 c d ees f g aes a |
+  \stemDown bes8 c cis d ees e f g |
   % 306
   aes!4. g8 f ees d c |
   % 307
