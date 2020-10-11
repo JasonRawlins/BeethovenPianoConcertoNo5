@@ -71,11 +71,11 @@ right = \relative c' {
   % 320
   s2 d8 ees f! fis |
   % 321
-  g8 a b c d ees f! fis |
+  g8 a b c <d, d'> <ees ees'> <f! f'!> <fis fis'> |
   % 322
-  <g, g'>8 <a a'> <b b'> <c c'> <d d'> <ees ees'> <f! f'!> <fis fis'> |
+  <g g'>8 <a a'> <b b'> <c c'> <d d'> <ees ees'> <f! f'!> <fis fis'> |
   % 323
-  \ottava 1 <g g'>8 <a! a'!> <b b'> <c c'> <d d'> <ees ees'> <f f'> fis \ottava 0 |
+  \ottava 1 <g g'>8 <a! a'!> <b b'> <c c'> <d d'> <ees ees'> <f! f'!> fis \ottava 0 |
   % 324
   << { g2. b,4 } \\ { g1 } >> |
   % 325
@@ -87,27 +87,48 @@ right = \relative c' {
   % 328
   << { d'4 } \\ { g,!4 } >> r4 r2 |
   % 329
-  s1
+  r1 |
   % 330
-  s1
+  r1 |
   % 331
-  s1
+  r2 r4 <des f>4 \trill 
   % 332
-  s1
+  <<
+    { ges8 ees d! ees ges ees bes' aes }
+    \\
+    { c,1 }
+  >>
   % 333
-  s1
+  <<
+    { aes'4 }
+    \\
+    { des,4 }
+  >> r4 r2
   % 334
-  s1
+  r1 |
   % 335
-  s1
+  r1 |
   % 336
-  s1
+  r2 r4 
+  <<
+    { g4 \trill }
+    \\
+    { ees4 }
+  >> |
   % 337
-  s1
+  <<
+    { aes8 f e f aes f c' bes }
+    \\
+    { d,!1 }
+  >> |
   % 338
-  s1
+  <<
+    { bes'8 g fis g bes g des'-> c }
+    \\
+    { e,1 }
+  >> |
   % 339
-  s1
+  c'8 \( a ees'!-> d! \) d \( aes f'-> e \) |
   % 340
   s1
   % 341
@@ -245,24 +266,44 @@ left = \relative c {
   <<
     { \autoBeamOff \crossStaff { a'!8 g fis ees \autoBeamOn <d d'> <c c'> <bes bes'> <a! a'!>  }  }
     \\
-    { \stemDown a g fis ees d c bes a } |
+    { \stemDown a8 g fis ees d c bes a } |
   >> |
   % 320
-  g8 a b c d ees f fis |
+  <<
+    { <g' g'>8 <a! a'!> <b b'> <c c'> \autoBeamOff \crossStaff { d ees f fis } \autoBeamOn }
+    \\
+    { \stemDown g,,8 a b c d ees f fis } |
+  >> |
   % 321
-  g8 a b c d ees f fis | \stemNeutral
+  <<
+    { \autoBeamOff \crossStaff { g'8 a b c \autoBeamOn } }
+    \\
+    { \stemDown g,8 a b c d ees f fis \stemNeutral } |
+  >> |
   % 322
   g8 a b c \clef treble d ees f! fis |
   % 323
   g8 a b c d ees f! fis |
   % 324
-  r1 |
+  \tuplet 3/2 { g, b d } 
+  \tuplet 3/2 { g, b d }
+  \tuplet 3/2 { g, b d }
+  \tuplet 3/2 { g, b d } |
   % 325
-  r1 |
+  \tuplet 3/2 { g, a c }
+  \tuplet 3/2 { g a c }
+  \tuplet 3/2 { g a c }
+  \tuplet 3/2 { g a c } |
   % 326
-  r1 |
+  \tuplet 3/2 { g b d }
+  \tuplet 3/2 { g, b d }
+  \tuplet 3/2 { g, b d }
+  \tuplet 3/2 { g, b d } |
   % 327
-  r1 |
+  \tuplet 3/2 { g, a c }
+  \tuplet 3/2 { g a c }
+  \tuplet 3/2 { g a c }
+  \tuplet 3/2 { g a c } |
   % 328
   r1 |
   % 329
