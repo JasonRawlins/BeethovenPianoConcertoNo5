@@ -194,31 +194,59 @@ left = \relative c {
   % 306
   aes!4. g8 f ees d c |
   % 307
-  b8 aes! g f ees d c b |
+  <<
+    { \autoBeamOff \crossStaff { b' aes g f ees d c b! } \autoBeamOn }
+    \\
+    { b8 aes! g f ees d c b } |
+  >> |
   % 308
-  c8 d e f g a b c |
+  <<
+    { \autoBeamOff \crossStaff { c' d e f g a b c } \autoBeamOn }
+    \\
+    { c,,8 d e f g a b c } |
+  >> |
   % 309
   d8 e f fis g a bes b |
   % 310
   b4. a8 g f e d |
   % 311
-  cis8 bes a g f e d cis |
+  <<
+    { \autoBeamOff \crossStaff { cis' b a g f e d cis! } \autoBeamOn }
+    \\
+    { cis8 bes a g f e d cis } |
+  >> |
   % 312
-  d8 e f g a b c cis |
+  <<
+    { \autoBeamOff \crossStaff { d'8 e f g a b c cis! } \autoBeamOn }
+    \\
+    { d,,8 e f g a b c cis } |
+  >> |
   % 313
   d8 e f g a b c! cis |
   % 314
   d8 c! bes a g fis ees d |
   % 315
-  c!8 bes a g fis ees d cis |
+  <<
+    { \autoBeamOff \crossStaff { c'!8 bes a g fis ees d cis! } \autoBeamOn }
+    \\
+    { c!8 bes a g fis ees d cis } |
+  >> |
   % 316
-  c8 bes c d e fis g a |
+  <<
+    { \autoBeamOff \crossStaff { c'8 bes c d e fis g a! } \autoBeamOn }
+    \\
+    { c,,8 bes c d e fis g a! } |
+  >> |
   % 317
   bes8 c d ees fis g aes a |
   % 318
   bes8 a g fis ees d c bes |
   % 319
-  \stemDown a g fis ees d c bes a | 
+  <<
+    { \autoBeamOff \crossStaff { a'!8 g fis ees \autoBeamOn <d d'> <c c'> <bes bes'> <a! a'!>  }  }
+    \\
+    { \stemDown a g fis ees d c bes a } |
+  >> |
   % 320
   g8 a b c d ees f fis |
   % 321
