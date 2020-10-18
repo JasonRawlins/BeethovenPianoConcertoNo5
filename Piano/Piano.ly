@@ -130,35 +130,36 @@ right = \relative c' {
   % 339
   c'8 \( a ees'!-> d! \) d \( aes f'-> e \) |
   % 340
-  s1
+  \ottava 1 \stemDown
+  e \( bes g' f \) f \( ces g'-> aes \) |
   % 341
-  s1
+  ces,16 d f aes ces, d f aes ces, d f aes ces, d f aes |
   % 342
-  s1
+  ces,16 d f aes d, f aes ces d, f aes ces d, f aes ces |
   % 343
-  s1
+  d,16 f aes ces d, f aes ces d, f aes ces d, f aes ces |
   % 344
-  s1
+  d,16 f aes ces f, aes ces d f, aes ces d f, aes ces d |
   % 345
-  s1
+  f,16 aes ces d aes ces d f aes, ces d f aes, ces d f |
   % 346
-  s1
+  aes,16 ces d f aes, ces d f aes, ces d f \tuplet 3/2 { aes,8 ces d } |
   % 347
-  s1
+  f4 \ottava 0 r4 r2 \stemNeutral |
   % 348
-  s1
+  r1 |
   % 349
-  s1
+  r1 |
   % 350
-  s1
+  r1 |
   % 351
-  s1
+  r1 |
   % 352
-  s1
+  r1 |
   % 353
-  s1
+  r1 |
   % 354
-  s1
+  r8 s16 ees,,,32 g
   % 355
   s1
   % 356
@@ -343,7 +344,7 @@ left = \relative c {
   % 346
   r1 |
   % 347
-  r1 |
+  r1 \clef bass |
   % 348
   r1 |
   % 349
@@ -357,21 +358,30 @@ left = \relative c {
   % 353
   r1 |
   % 354
-  r1 |
+  \stemDown 
+  %
+  % The g and bes are not beamed with the right hand
+  %
+  <<
+    { \autoBeamOff \crossStaff  { s8 g,32 bes } \autoBeamOn }
+    \\
+    { ees,,32 g bes ees r8 \stemNeutral ees32 g bes ees r8 \clef treble ees32 g bes ees r8 g,32 bes ees g r8 } | 
+  >> 
   % 355
-  r1 |
+  \stemDown <g, g'>16 r16 <ees ees'> r16 <ees ees'> r16 <bes bes'> r16 <bes bes'> r16 <g g'> r16 <g g'> r16 <ees ees'> r16 |
   % 356
-  r1 |
+  \clef bass <ees ees'>16 r16 <bes bes'> r16 <bes bes'> r16 <g g'> r16 <g g'> r16 <ees ees'> r16 <ees ees'> r16 ees r16 \stemNeutral |
   % 357
-  r1 |
+  <aes, c ees aes>4 r4 r2 |
   % 358
-  r1 |
+  \stemDown 
+  aes32 c ees aes r8 aes32 c ees aes r8 \clef treble \stemNeutral aes32 c ees a r8 aes32 c ees aes r8 |
   % 359
-  r1 |
+  <aes, aes'>16 r16 <ees ees'> r16 <ees ees'> r16 <c c'> r16 <c c'> r16 <aes aes'> r16 <aes aes'> r16 <ees ees'> r16 |
   % 360
-  r1 |
+  \clef bass <ees ees'>16 r16 <c c'> r16 <c c'> r16 <aes aes'> r16 <aes aes'> r16 <ees ees'> r16 <c c'> r16 <aes aes'> r16 |
   % 361
-  r1 |
+  <bes d f bes>4 r4 r2 |
 }
 
 \score {
