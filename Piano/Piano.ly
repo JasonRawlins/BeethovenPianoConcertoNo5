@@ -161,18 +161,18 @@ right = \relative c' {
   % 354
   r8 \change Staff = "left" \stemUp g,,,,32 bes \change Staff = "right" ees g \stemNeutral r8 g32 bes ees g r8 g32 bes ees g r8 bes,32 ees g bes |
   % 355
-  r16 <bes, bes'> r16 <g g'> r16 <g g'> r16 <ees ees'> r16 <ees ees'> r16 <bes bes'> r16 <bes bes'> r16 <g g'> |
+  r16 <bes, bes'>[ r16 <g g'>] r16 [<g g'> r16 <ees ees'>] r16 <ees ees'>[ r16 <bes bes'>] r16 <bes bes'>[ r16 <g g'>] |
   % 356
-  r16 <g g'> r16 <ees ees'> r16 <ees ees'> r16 <bes bes'> r16 <bes bes'> r16 g' r16 g r16 ees |
+  r16 \stemUp <g g'>[ r16 <ees ees'>] \stemNeutral r16 <ees ees'>[ r16 <bes bes'>] r16 <bes bes'>[ r16 g'] r16 g[ r16 ees] |
   % 357
   <c ees aes c>4 r4 r2 |
   % 358
   r8 \stemUp \change Staff = "left" c,32 ees aes c \change Staff = "right" \stemNeutral r8 c32 ees aes c r8 c32 ees aes c r8 c32 ees aes c |
   % 359
-  r16 <c, c'> r16 <aes aes'> r16 <aes aes'> r16 <ees ees'> r16 <ees ees'> r16 <c c'> r16 <c c'> r16 <aes aes'> |
+  r16 <c, c'>[ r16 <aes aes'>] r16 <aes aes'>[ r16 <ees ees'>] r16 <ees ees'>[ r16 <c c'>] r16 <c c'>[ r16 <aes aes'>] |
   % TODO: 
   % 360
-  r16 <aes aes'> r16 <ees ees'> r16 <ees ees'> r16 <c c'> r16 <c c'> r16 <aes aes'> r16 ees' r16 c |
+  r16 <aes aes'>[ r16 <ees ees'>] r16 <ees ees'>[ r16 <c c'>] r16 <c c'>[ r16 <aes aes'>] r16 ees'[ r16 c] |
   % 361
   <aes bes d f aes>4 r4 r2 |
 }
@@ -361,12 +361,12 @@ left = \relative c {
   % 354
   ees,,,32 g bes ees r8 ees32 g bes ees r8 \clef treble ees32 g bes ees r8 g,32 bes ees g r8  | 
   % 355
-  \stemDown <g, g'>16 r16 <ees ees'> r16 <ees ees'> r16 <bes bes'> r16 <bes bes'> r16 <g g'> r16 <g g'> r16 <ees ees'> r16 |
+  \stemDown <g, g'>16[ r16 <ees ees'>] r16 <ees ees'>[ r16 <bes bes'>] r16 <bes bes'>[ r16 <g g'>] r16 <g g'>[ r16 <ees ees'>] r16 |
   % 356
   <<
     { \autoBeamOff \crossStaff { s2 s8. g16 s16 g s16 ees \autoBeamOn } }
     \\
-    { \clef bass <ees ees'>16 r16 <bes bes'> r16 <bes bes'> r16 <g g'> r16 <g g'> r16 <ees ees'> r16 <ees ees'> r16 ees r16 \stemNeutral } |
+    { \clef bass <ees ees'>16[ r16 <bes bes'>] r16 <bes bes'>[ r16 <g g'>] r16 <g g'>[ r16 <ees ees'>] r16 <ees ees'>[ r16 ees] r16 \stemNeutral } |
   >>  
   % 357
   <aes, c ees aes>4 r4 r2 |
@@ -374,12 +374,12 @@ left = \relative c {
   \stemDown 
   aes32 c ees aes r8 aes32 c ees aes r8 \clef treble \stemNeutral aes32 c ees a r8 aes32 c ees aes r8 |
   % 359
-  <aes, aes'>16 r16 <ees ees'> r16 <ees ees'> r16 <c c'> r16 <c c'> r16 <aes aes'> r16 <aes aes'> r16 <ees ees'> r16 |
+  <aes, aes'>16[ r16 <ees ees'>] r16 <ees ees'>[ r16 <c c'>] r16 <c c'>[ r16 <aes aes'>] r16 <aes aes'>[ r16 <ees ees'>] r16 |
   % 360
   <<
     { \autoBeamOff \crossStaff { s2 s4 r16 ees r16 c \autoBeamOn } }
     \\
-    { \clef bass <ees ees'>16 r16 <c c'> r16 <c c'> r16 <aes aes'> r16 <aes aes'> r16 <ees ees'> r16 <c c'> r16 <aes aes'> r16 } |
+    { \clef bass <ees ees'>16[ r16 <c c'>] r16 <c c'>[ r16 <aes aes'>] r16 <aes aes'>[ r16 <ees ees'>] r16 <c c'>[ r16 <aes aes'>] r16 } |
   >>
   % 361
   <bes d f bes>4 r4 r2 |
