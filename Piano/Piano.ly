@@ -43,42 +43,44 @@ right = \relative c' {
   ees4 \startTrillSpan
   f4 \stopTrillSpan \trill |
   % 371
-  
   <<
     { g2 \startTrillSpan bes8 \stopTrillSpan \( aes \) g-. f-. }
     \\
     { s2. <aes, d>4 }
   >> |
   % 372
-  s1
+ ees'2 \( ees8 \) \tuplet 3/2 { f16 \( ees d }  ees8 f \) |
   % 373
-  s1 |
+  fis8 \( g \) d \( ees \) b \( c \) r4 |
   % 374
-  s1 |
+  \ottava 1 
+  ees'2 \( ees8 \) \tuplet 3/2 { f16 \( ees d }  ees8 f \) |
   % 375
-  s1 |
+  fis8 \( g \) d \( ees \) b \( c \) r4 |
   % 376
-  s1 |
+  g'2 \( g8 \) \tuplet 3/2 { aes16 \( g f! }  g8 aes \) |
   % 377
-  s1 |
+  a8 \( bes \) fis \( g \) d \( ees \) r4 |
   % 378
-  s1 |
+  a8 \( bes \) fis \( g \) d \( ees \) r4 |
   % 379
-  s1 |
+  b'8 \( c \) g \( aes! \) d, \( ees \) r4 |
   % 380
-  s1 |
+  b'8 \( c \) g \( aes \) d, \( ees \) r4 |
   % 381
-  s1 |
+  c'8 \( des \) a \( bes \) fis \( g \) d! \( ees \) \ottava 0 |
   % 382
-  s1 |
+  c8 \( des \) a \( bes \) fis \( g \) c, \( des \) |
   % 383
-  s1 |
+  c16 <c' ees> aes! <c ees> aes'4 \( aes16 \) <c,, ees> aes <c ees> aes'4 \( |
   % 384
-  s1 |
+  aes16 \) <c,, ees> aes <c ees> aes'4 \( aes16 \) \change Staff = "left" <c,, ees> aes <c ees> aes'4 \( |
   % 385
-  s1 |
+  aes16 \) <des, f> aes <des f> aes'4 \( aes16 \)
+  \change Staff = "right" <des f> aes <des f> aes'4 \( |
   % 386
-  s1 |
+  aes16 \) <ees' ges> aes, <ees' ges> aes4 \( aes16 \) 
+  <des f> aes <des f> aes'4
   % 387
   s1 |
   % 388
