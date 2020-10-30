@@ -79,28 +79,27 @@ right = \relative c' {
   aes16 \) <des, f> aes <des f> aes'4 \( aes16 \)
   \change Staff = "right" <des f> aes <des f> aes'4 \( |
   % 386
-  aes16 \) <ees' ges> aes, <ees' ges> aes4 \( aes16 \) 
-  <des f> aes <des f> aes'4
+  aes16 \) <ees' ges> aes, <ees' ges> aes4 \( aes16 \) <des f> aes <des f> aes'4 \(
   % 387
-  s1 |
+  aes8 \) <c, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 |
   % 388
-  s1 |
+  r8 <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 \clef bass <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 |
   % 389
-  s1 |
+  r8 aes,16 \( aes' \) aes, \( aes' \) r8 r8 \clef treble aes16 \( aes' \) aes, \( aes' \) r8 |
   % 390
-  s1 |
+  r8 aes16 \( aes' \) aes,16 \( aes' \) r8 r8 aes16 \( aes' \) aes, \( aes' \) <aes, aes'>8 |
   % 391
-  s1 |
+  <gis gis'>8 s4. cis,,16 bis cis bis e! dis e! dis |
   % 392
-  s1 |
+  a'16 gis a gis cis bis cis bis e dis e dis a' gis a gis |
   % 393
-  s1 |
+  cis16 bis cis bis e dis! e dis a' gis a gis e dis e dis |
   % 394
-  s1 |
+  a' gis a gis e dis e dis a' gis a gis e dis e dis |
   % 395
-  s1 |
+  gis16 fis gis fis e dis e dis gis fis gis fis e dis e dis |
   % 396
-  s1 |
+  gis16 fis e dis gis fis e dis gis fis e dis gis fis e dis |
   % 397
   s1 |
   % 398
