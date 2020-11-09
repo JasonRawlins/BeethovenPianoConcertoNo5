@@ -101,21 +101,42 @@ right = \relative c' {
   % 396
   gis16 fis e dis gis fis e dis gis fis e dis gis fis e dis |
   % 397
-  s1 |
+  gis16 fis e dis gis fis e dis gis16 fis e dis gis16 fis e dis |
   % 398
-  s1 |
+  \tuplet 3/2 { <cis e>8 gis <cis e> }
+  \tuplet 3/2 { gis <bis dis> gis }
+  \tuplet 3/2 { cis gis cis }
+  \tuplet 3/2 { gis <bis dis> gis } |
   % 399
-  s1 |
+  \tuplet 3/2 { <cis e>8 gis <cis e> }
+  \tuplet 3/2 { gis <bis dis> gis }
+  \tuplet 3/2 { <cis e> gis <cis e> }
+  \tuplet 3/2 { gis <cis e> <bis dis> } |
   % 400
-  s1 |
+  \tuplet 3/2 { <cis e>8 gis <cis e> }
+  \tuplet 3/2 { gis <cis e> <bis dis> }
+  \tuplet 3/2 { <cis e> gis <cis e> }
+  \tuplet 3/2 { b <dis! fis> b } |
   % 401
-  s1 |
+  \tuplet 3/2 { <dis fis>8 b <dis fis> }
+  \tuplet 3/2 { b <dis fis> b }
+  \tuplet 3/2 { <dis fis> b <dis fis> }
+  \tuplet 3/2 { b <e gis> <dis fis> } |
   % 402
-  s1 |
+  \tuplet 3/2 { <e gis>8 gis, <e' gis> }
+  \tuplet 3/2 { gis, <dis' fis> gis, }
+  \tuplet 3/2 { <e' gis> gis, <e' gis> }
+  \tuplet 3/2 { gis, <dis' fis> <cis e!> } |
   % 403
-  s1 |
+  \tuplet 3/2 { <dis fis>8 gis, <dis' fis> }
+  \tuplet 3/2 { gis, <cis e> gis }
+  \tuplet 3/2 { <dis' fis> gis, <dis' fis> }
+  \tuplet 3/2 { gis, <cis e> <bis dis> } |
   % 404
-  s1 |
+  \tuplet 3/2 {  }
+  \tuplet 3/2 {  }
+  \tuplet 3/2 {  }
+  \tuplet 3/2 {  } |
   % 405
   s1 |
   % 406
