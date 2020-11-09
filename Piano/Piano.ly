@@ -10,7 +10,7 @@ global = {
 %\include "Piano 121-157.ly"
 %\include "Piano 165-218.ly"
 %\include "Piano 255-295.ly"
-\include "Piano 296-361.ly"
+%\include "Piano 296-361.ly"
 
 right = \relative c' {
   \global
@@ -133,42 +133,42 @@ right = \relative c' {
   \tuplet 3/2 { <dis' fis> gis, <dis' fis> }
   \tuplet 3/2 { gis, <cis e> <bis dis> } |
   % 404
-  \tuplet 3/2 {  }
-  \tuplet 3/2 {  }
-  \tuplet 3/2 {  }
-  \tuplet 3/2 {  } |
+  \tuplet 3/2 { <cis e>8 gis <cis e> }
+  \tuplet 3/2 { gis <bis dis> gis }
+  \tuplet 3/2 { <cis e> gis <cis e> }
+  \tuplet 3/2 { gis <bis dis> gis } |
   % 405
-  s1 |
+  <c! ees!>8 aes!-. \( g!-. aes-. bes!-. c-. des-. ees-. \) |
   % 406
-  s1 |
+  f!8-. \( des-. aes-. des \) f, \( des'-. aes-. des \) |
   % 407
-  s1 |
+  f8-. \( f-. des-. f-. \) aes,-. \( f'-. des-. f-. \) |
   % 408
-  s1 |
+  \ottava 1 aes8-. \( f-. \) des'-. \( c-. \) bes-. \( aes-. ges-. f-. \) |
   % 409
-  s1 |
+  aes8 \( ges f ges \) ges-. \( ees-. f-. ges-. \) |
   % 410
-  s1 |
+  aes8 \( des \) f-. \( ees-. \) des-. \( c-. bes-. aes-. \) |
   % 411
-  s1 |
+  ges8 \( c \) ees-. \( des-. \) c-. \( bes-. aes-. ges-. \) |
   % 412
-  s1 |
+  f8 \( aes des aes f'-. \) des-. aes-. f-. |
   % 413
-  s1 |
+  \ottava 0 ees8-. aes,-. ees-. c-. ees,-. c-. r4 |
   % 414
-  s1 |
+  r1 |
   % 415
-  s1 |
+  r1 |
   % 416
-  s1 |
+  r1 |
   % 417
-  s1 |
+  r1 |
   % 418
-  s1 |
+  r1 |
   % 419
-  s1 |
+  r1 |
   % 420
-  s1 |
+  r1 |
 }
   
 left = \relative c {
