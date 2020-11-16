@@ -11,6 +11,7 @@ global = {
 %\include "Piano 165-218.ly"
 %\include "Piano 255-295.ly"
 %\include "Piano 296-361.ly"
+%\include "Piano 362-420.ly"
 
 right = \relative c' {
   \global
@@ -21,154 +22,127 @@ right = \relative c' {
 %  \right_TwoHundredFiftyFive_TwoHundredNintyFive
 %  \right_TwoHundredNinetySix_ThreeHundredSixtyOne
 %  2nd Cadenza (not complete)
+%  \right_ThreeSixtyTwo_FourHundredTwenty
 
-  % 362
-  ees'4 r4 r2 |
+% 362
+  s1 |
   % 363
-  r1 |
+  s1 |
   % 364
-  r1 |
+  s1 |
   % 365
-  r1 |
+  s1 |
   % 366
-  r1 |
+  s1 |
   % 367
-  r1 |
+  s1 |
   % 368
-  r1 |
+  s1 |
   % 369
-  r1 |
+  s1 |
   % 370
-  d2 \startTrillSpan
-  ees4 \startTrillSpan
-  f4 \stopTrillSpan \trill |
+  s1 |
   % 371
-  <<
-    { g2 \startTrillSpan bes8 \stopTrillSpan \( aes \) g-. f-. }
-    \\
-    { s2. <aes, d>4 }
-  >> |
+  s1 |
   % 372
- ees'2 \( ees8 \) \tuplet 3/2 { f16 \( ees d }  ees8 f \) |
+  s1 |
   % 373
-  fis8 \( g \) d \( ees \) b \( c \) r4 |
+  s1 |
   % 374
-  \ottava 1 
-  ees'2 \( ees8 \) \tuplet 3/2 { f16 \( ees d }  ees8 f \) |
+  s1 |
   % 375
-  fis8 \( g \) d \( ees \) b \( c \) r4 |
+  s1 |
   % 376
-  g'2 \( g8 \) \tuplet 3/2 { aes16 \( g f! }  g8 aes \) |
+  s1 |
   % 377
-  a8 \( bes \) fis \( g \) d \( ees \) r4 |
+  s1 |
   % 378
-  a8 \( bes \) fis \( g \) d \( ees \) r4 |
+  s1 |
   % 379
-  b'8 \( c \) g \( aes! \) d, \( ees \) r4 |
+  s1 |
   % 380
-  b'8 \( c \) g \( aes \) d, \( ees \) r4 |
+  s1 |
   % 381
-  c'8 \( des \) a \( bes \) fis \( g \) d! \( ees \) \ottava 0 |
+  s1 |
   % 382
-  c8 \( des \) a \( bes \) fis \( g \) c, \( des \) |
+  s1 |
   % 383
-  c16 <c' ees> aes! <c ees> aes'4 \( aes16 \) <c,, ees> aes <c ees> aes'4 \( |
+  s1 |
   % 384
-  aes16 \) <c,, ees> aes <c ees> aes'4 \( aes16 \) \change Staff = "left" <c,, ees> aes <c ees> aes'4 \( |
+  s1 |
   % 385
-  aes16 \) <des, f> aes <des f> aes'4 \( aes16 \)
-  \change Staff = "right" <des f> aes <des f> aes'4 \( |
+  s1 |
   % 386
-  aes16 \) <ees' ges> aes, <ees' ges> aes4 \( aes16 \) <des f> aes <des f> aes'4 \(
+  s1 |
   % 387
-  aes8 \) <c, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 |
+  s1 |
   % 388
-  r8 <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 \clef bass <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 |
+  s1 |
   % 389
-  r8 aes,16 \( aes' \) aes, \( aes' \) r8 r8 \clef treble aes16 \( aes' \) aes, \( aes' \) r8 |
+  s1 |
   % 390
-  r8 aes16 \( aes' \) aes,16 \( aes' \) r8 r8 aes16 \( aes' \) aes, \( aes' \) <aes, aes'>8 |
+  s1 |
   % 391
-  <gis gis'>8 s4. cis,,16 bis cis bis e! dis e! dis |
+  s1 |
   % 392
-  a'16 gis a gis cis bis cis bis e dis e dis a' gis a gis |
+  s1 |
   % 393
-  cis16 bis cis bis e dis! e dis a' gis a gis e dis e dis |
+  s1 |
   % 394
-  a' gis a gis e dis e dis a' gis a gis e dis e dis |
+  s1 |
   % 395
-  gis16 fis gis fis e dis e dis gis fis gis fis e dis e dis |
+  s1 |
   % 396
-  gis16 fis e dis gis fis e dis gis fis e dis gis fis e dis |
+  s1 |
   % 397
-  gis16 fis e dis gis fis e dis gis16 fis e dis gis16 fis e dis |
+  s1 |
   % 398
-  \tuplet 3/2 { <cis e>8 gis <cis e> }
-  \tuplet 3/2 { gis <bis dis> gis }
-  \tuplet 3/2 { cis gis cis }
-  \tuplet 3/2 { gis <bis dis> gis } |
+  s1 |
   % 399
-  \tuplet 3/2 { <cis e>8 gis <cis e> }
-  \tuplet 3/2 { gis <bis dis> gis }
-  \tuplet 3/2 { <cis e> gis <cis e> }
-  \tuplet 3/2 { gis <cis e> <bis dis> } |
+  s1 |
   % 400
-  \tuplet 3/2 { <cis e>8 gis <cis e> }
-  \tuplet 3/2 { gis <cis e> <bis dis> }
-  \tuplet 3/2 { <cis e> gis <cis e> }
-  \tuplet 3/2 { b <dis! fis> b } |
+  s1 |
   % 401
-  \tuplet 3/2 { <dis fis>8 b <dis fis> }
-  \tuplet 3/2 { b <dis fis> b }
-  \tuplet 3/2 { <dis fis> b <dis fis> }
-  \tuplet 3/2 { b <e gis> <dis fis> } |
+  s1 |
   % 402
-  \tuplet 3/2 { <e gis>8 gis, <e' gis> }
-  \tuplet 3/2 { gis, <dis' fis> gis, }
-  \tuplet 3/2 { <e' gis> gis, <e' gis> }
-  \tuplet 3/2 { gis, <dis' fis> <cis e!> } |
+  s1 |
   % 403
-  \tuplet 3/2 { <dis fis>8 gis, <dis' fis> }
-  \tuplet 3/2 { gis, <cis e> gis }
-  \tuplet 3/2 { <dis' fis> gis, <dis' fis> }
-  \tuplet 3/2 { gis, <cis e> <bis dis> } |
+  s1 |
   % 404
-  \tuplet 3/2 { <cis e>8 gis <cis e> }
-  \tuplet 3/2 { gis <bis dis> gis }
-  \tuplet 3/2 { <cis e> gis <cis e> }
-  \tuplet 3/2 { gis <bis dis> gis } |
+  s1 |
   % 405
-  <c! ees!>8 aes!-. \( g!-. aes-. bes!-. c-. des-. ees-. \) |
+  s1 |
   % 406
-  f!8-. \( des-. aes-. des \) f, \( des'-. aes-. des \) |
+  s1 |
   % 407
-  f8-. \( f-. des-. f-. \) aes,-. \( f'-. des-. f-. \) |
+  s1 |
   % 408
-  \ottava 1 aes8-. \( f-. \) des'-. \( c-. \) bes-. \( aes-. ges-. f-. \) |
+  s1 |
   % 409
-  aes8 \( ges f ges \) ges-. \( ees-. f-. ges-. \) |
+  s1 |
   % 410
-  aes8 \( des \) f-. \( ees-. \) des-. \( c-. bes-. aes-. \) |
+  s1 |
   % 411
-  ges8 \( c \) ees-. \( des-. \) c-. \( bes-. aes-. ges-. \) |
+  s1 |
   % 412
-  f8 \( aes des aes f'-. \) des-. aes-. f-. |
+  s1 |
   % 413
-  \ottava 0 ees8-. aes,-. ees-. c-. ees,-. c-. r4 |
+  s1 |
   % 414
-  r1 |
+  s1 |
   % 415
-  r1 |
+  s1 |
   % 416
-  r1 |
+  s1 |
   % 417
-  r1 |
+  s1 |
   % 418
-  r1 |
+  s1 |
   % 419
-  r1 |
+  s1 |
   % 420
-  r1 |
+  s1 |
+
 }
   
 left = \relative c {
@@ -182,47 +156,65 @@ left = \relative c {
 %  2nd Cadenza (not complete)
 
   % 362
-  s1 |
+  r1 |
   % 363
-  s1 |
+  r1 |
   % 364
-  s1 |
+  r1 |
   % 365
-  s1 |
+  r1 |
   % 366
-  s1 |
+  r1 |
   % 367
-  s1 |
+  r1 |
   % 368
-  s1 |
+  r1 |
   % 369
-  s1 |
+  r1 |
   % 370
-  s1 |
+  \clef treble
+  <<
+    { <bes' f' aes>2 <ees g>4 f }
+    \\
+    { s2. <a, c ees>8 <aes bes d> }
+  >> |
   % 371
-  s1 |
+  <<
+    { g'2 f4 \clef bass s4 }
+    \\
+    { <g, bes ees>4 <c ees> <aes c> <g, g'>4 }
+  >> |
   % 372
-  s1 |
+  ees'16 g bes ees ees, g bes ees ees, g bes ees ees, g bes ees |
   % 373
-  s1 |
+  ees,16 g bes ees ees, g bes ees ees, g bes ees ees, g bes ees |
   % 374
-  s1 |
+  ees,16 g bes ees ees, g bes ees ees, g bes ees ees, g bes ees |
   % 375
-  s1 |
+  ees,16 g bes ees ees, g bes ees ees, g bes ees ees, g bes ees |
   % 376
-  s1 |
+  \tuplet 5/4 { des,16 ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees } |
   % 377
-  s1 |
+  \tuplet 5/4 { des,16 ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees } |
   % 378
-  s1 |
+  \tuplet 5/4 { des,16 ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees }
+  \tuplet 5/4 { des, ees g bes ees } |
   % 379
-  s1 |
+  c,16 ees aes ees' c, ees aes ees' c, ees aes ees' c, ees aes ees' |
   % 380
-  s1 |
+  c,16 ees aes ees' c, ees aes ees' c, ees aes ees' c, ees aes ees' |
   % 381
-  s1 |
+  bes,16 ees g des' bes, ees g des' bes, ees g des' bes, ees g des' |
   % 382
-  s1 |
+  ees,16 g bes des ees, g bes des ees, g bes des ees, g bes des |
   % 383
   s1 |
   % 384
