@@ -216,27 +216,32 @@ left = \relative c {
   % 382
   ees,16 g bes des ees, g bes des ees, g bes des ees, g bes des |
   % 383
-  s1 |
+  aes,4 \clef treble r8 c''16 ees aes,4 r8 c,16 ees |
   % 384
-  s1 |
+  aes,4 \clef bass r8 c,16 ees aes,4 r8 c,16 ees |
   % 385
-  s1 |
+  aes,4 r8 des16 f aes4 r8 des16 f |
   % 386
-  s1 |
+  aes4 \clef treble r8 ees'16 ges aes4 r8 des16 f |
   % 387
-  s1 |
+  aes8 r8 r8 <c, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 <c,,ees>16 \( aes' \) |
   % 388
-  s1 |
+  <c, ees>16 \( aes' \) r8 r8 \clef bass <c,, ees>16 \( aes' \) <c, ees> \( aes' \) r8 r8 aes,,16 \( aes' \) |
   % 389
-  s1 |
+  aes,16 \( aes' \) r8 r8 aes,16 \( aes' \) aes, \( aes' \) r8 r8 aes16 \( aes' \) |
   % 390
-  s1 |
+  aes,16 aes' r8 r8 aes16 \( 
+  \change Staff = right aes' \)
+  \change Staff = left aes, \(
+  \change Staff = right aes' \)
+  \change Staff = left
+  r8 r8 aes,16 \( aes' \) |
   % 391
-  s1 |
+  gis,,8 a16 gis a gis a gis cis bis cis bis e dis e dis |
   % 392
-  s1 |
+  a'16 gis a gis \clef treble cis bis cis bis e dis e dis a' gis a gis |
   % 393
-  s1 |
+  cis  |
   % 394
   s1 |
   % 395
