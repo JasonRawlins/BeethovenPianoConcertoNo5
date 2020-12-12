@@ -241,29 +241,29 @@ left = \relative c {
   % 392
   a'16 gis a gis \clef treble cis bis cis bis e dis e dis a' gis a gis |
   % 393
-  cis  |
+  cis16 bis cis bis e! dis e dis a'! gis a gis e dis e dis |
   % 394
-  s1 |
+  a'16 gis a gis e! dis e dis a' gis a gis e dis e dis |
   % 395
-  s1 |
+  gis fis gis fis e dis e dis gis fis gis fis e dis e dis |
   % 396
-  s1 |
+  gis fis e dis gis fis e dis gis fis e dis gis fis e dis |
   % 397
-  s1 |
+  gis fis e dis gis fis e dis gis fis e dis gis8 <gis, dis'!> |
   % 398
-  s1 |
+  <cis e>4 r8 <gis dis'>8 \( cis4-. \) r8 <gis dis'>8 \( |
   % 399
-  s1 |
+  <cis e>4-. \) r8 <gis dis'>8 \( <cis e>4-. \) r8 <gis d'>8 \(  |
   % 400
-  s1 |
+  <cis e>4-. \) r8 <gis dis'> \( <cis e>4 \) r8 <b fis'> |
   % 401
-  s1 |
+  <b fis'>4 r8 <b fis'> <b fis'>4 r8 <b fis'> \( |
   % 402
-  s1 |
+  <e gis> \) r8 <dis fis> \( <e gis>-. \)4 r8 <cis e>8 \( |
   % 403
-  s1 |
+  <dis fis>4-. \) r8 <cis e> \( <dis fis>4-. \) r8 <gis, dis'!>8 \( |
   % 404
-  s1 |
+  <cis e>4-. \) |
   % 405
   s1 |
   % 406
